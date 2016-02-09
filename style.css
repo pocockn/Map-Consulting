@@ -1,0 +1,483 @@
+/*
+Theme Name: MAP Consulting
+Author: Nick Pocock | Alex Anderson
+Author URI: mapconsulting.co.uk
+Version: 1.0
+Text Domain: Nick Pocock
+*/
+
+/*
+PALETTE:
+dark grey : #555555;
+pink      : #d93575;
+*/
+
+/* FONTS */
+
+p {
+    font-size:16px;
+    line-height: 28px;
+}
+
+
+
+p, h1, h2, h3, h4, h5, li, a {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 40px;
+    color:#A6A6A6;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 40px;
+       color:#A6A6A6;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 40px;
+       color:#A6A6A6;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 20px;
+       color:#A6A6A6;
+}
+
+/* Won't be used here */
+
+h5 {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.text-header {
+  font-weight:500;
+  font-size:22px;
+}
+
+.about-text {
+
+    margin-top: 13px;
+
+}
+
+p {color:#383839}
+
+h1 {line-height:25px; padding-bottom:10px; margin-top:0px;}
+
+
+h2 {margin-top:0px;}
+
+h3 {margin-top:0px;}
+
+h4 {margin-top:0px;}
+.post-meta {font-size:15px; line-height:20px; margin-bottom:10px; color:#808080}
+.post-meta a {color:#808080}
+
+.widget-title {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #383839;
+}
+
+.owl-item {
+  width:100%;
+}
+
+
+h3 {
+    line-height: 20px;
+ }
+/* HEADER */
+
+/* Add this class for red header */
+.red-header {
+  color:#ff0000;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.navbar-toggle {
+    border-color: #dddddd;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #888888;
+}
+
+.navbar-collapse li {
+    border-right: 0px solid #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #646466;
+}
+
+#nav-large li {
+  color:#929497;
+}
+
+a {
+  color:#929497;
+}
+
+.logo-header {
+      margin-top: 10px;
+}
+.navbar-header {
+      padding-top: 35px;
+}
+
+.input-group {
+      padding-top: 40px;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  color:#fff;
+  padding:0 10px;
+}
+
+.search-list {
+  padding-left:0px;
+  list-style: none;
+}
+/* SIDE BAR */
+
+.contact-us {
+  font-size:18px;
+  font-weight:500px;
+}
+
+.contact-header {
+  margin-bottom:25px;
+}
+
+/* CONTENT */
+
+.content-projects {
+  background-color: #f8f8f8;
+  padding-top:20px;
+ 
+}
+
+@media (min-width:801px) {
+  .content-projects {
+  padding-bottom:130px;
+}
+
+}
+
+
+
+@media (max-width:801px) {
+  .service-img-mobile {
+  padding-right:10px;
+}
+
+}
+
+
+.container-blurb {
+    padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width:850px;
+
+}
+
+
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+.content {
+  padding:0px;
+}
+}
+
+@media (max-width:800px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+.services-content {
+  padding:0px;
+}
+}
+
+
+/* Images */
+
+.img-center {margin:0 auto;}
+
+.vertical-center {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}
+
+
+/* FOOTER */
+
+.footer-basic-centered{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font: normal 18px sans-serif;
+  padding: 10px;
+}
+
+.footer-basic-centered .footer-company-motto{
+  color:  #8d9093;
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+.menu-footer-container ul{
+  list-style: none;
+  font-weight: bold;
+  color:  #ffffff;
+  padding: 15px 0 23px;
+  margin: 0;
+}
+
+.menu-footer-container ul li{
+  display:inline-block;
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.menu-footer-container ul li a{
+color:#fff;
+
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+  .footer-basic-centered{
+    padding: 35px;
+  }
+
+  .footer-basic-centered .footer-company-motto{
+    font-size: 18px;
+  }
+
+  .footer-basic-centered .footer-company-name{
+    font-size: 12px;
+  }
+
+  .footer-basic-centered .footer-links{
+    font-size: 14px;
+    padding: 25px 0 20px;
+  }
+
+  .footer-basic-centered .footer-links a{
+    line-height: 1.8;
+  }
+}
+
+
+/* GENERAL GUBBINS */
+
+/* Page Border */
+.content-top-border {
+    border-top: 1px solid #dcddde;
+    margin-top: 15px;
+    padding-top: 10px;
+    margin-bottom:10px;
+}
+
+.img-margin {
+    margin-bottom: 25px;
+}
+
+
+
+/***************************
+****************************
+iFrame
+****************************
+***************************/
+
+#iframe-map iframe,
+#iframe-map object,
+#iframe-map embed {
+    width: 100%;
+}
+
+#iframe-map {
+  margin-bottom:25px;
+}
+
+.customisable-border {
+	border:0px solid #e8e8e8;
+}
+ 
+/***************************
+****************************
+Member Page
+****************************
+***************************/
+
+.member-name {
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 15px;
+    color: #3B3B3C;
+    padding-bottom: 5px;
+}
+.member-profession {
+    text-align: left;
+    line-height: 15px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: #3B3B3C;
+    padding-bottom: 5px;
+}
+.member-contacts {
+    text-align: left;
+    line-height: 15px;
+    font-size: 13px;
+    color: #3B3B3C;
+    padding-bottom: 5px;
+}
+.member-website {
+    text-align: left;
+    line-height: 15px;
+    font-size: 3px;
+    color: #1759B9;
+    padding-bottom: 5px;
+}
+.member-summary {
+    text-align: left;
+}
+.thumbnail {
+    margin-bottom: 15px;
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857;
+
+}
+.thumbnail-mask:hover {
+    opacity: 0.6;
+}
+/***************************
+****************************
+Members Single
+****************************
+***************************/
+
+.member-name-single {
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-family: "merriweather_sanslight";
+    font-size: 17px;
+    color: #3B3B3C;
+}
+.member-profession-single {
+    text-align: left;
+    line-height: 20px;
+    font-family: "merriweather_sanslight";
+    font-size: 15px;
+    color: #3B3B3C;
+}
+.member-contacts-single {
+    text-align: left;
+    line-height: 20px;
+    font-family: "merriweather_sanslight";
+    font-size: 15px;
+    color: #3B3B3C;
+}
+.member-website-single {
+    text-align: left;
+    color: #1759B9;
+}
+
+.thumbnail-single {
+    margin-right: 15px;
+}
+.bio {
+    padding-top: 25px;
+}
+
+.single-project-img {
+  margin-bottom:15px;
+}
+
+.carousel-case li {
+    width:100%;
+    height:100%;
+    position:relative;
+    background-color:transparent;
+    display: inline;
+}
+
+.carousel-case {
+    position: relative;
+    width: 100%;
+  bottom:-20px;
+  left:0px;
+      margin-bottom: 25px;
+}
+
+.carousel-case .active {
+    background-color:transparent;
+    width:100%;
+    height:100%;
+    display: inline;
+}
+
+@media (max-width: 800px){
+.content-projects {
+    background-color: #f8f8f8;
+    padding: 20px 20px;
+  }
+}
+
+.widget-title {
+text-align: left;
+}
+
+.widget-excerpt {
+  text-align: left;
+}
+
+
+@media (max-width: 800px){
+.search-image {
+  margin-bottom:10px;
+}
+
+/*
+* Testmonials
+*
+*/
+
+#rotate {
+    height: 250px;
+}
+
